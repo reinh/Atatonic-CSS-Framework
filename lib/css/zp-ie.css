@@ -1,0 +1,52 @@
+/* Ie6 and 7 fixes for zophrenic websites
+----------------------------------------------------------
+
+@package:	zophrenic 2009	
+@Author: 	Tim Benniks <tim@timbenniks.com>
+@Created: 	11-12-2008
+
+---------------------------------------------------------- */
+a.button,
+button {
+	display: inline;
+}
+
+button {
+	line-height: 14px;
+}
+
+a.button {
+	padding: 2px 4px 3px 4px !important;
+	line-height: 14px;
+}
+
+*:first-child+html button[type] {
+	padding: 0 4px 0 4px;   /* IE7 */
+}
+
+.zp-5,
+.zp-10,
+.zp-15,
+.zp-20,
+.zp-25,
+.zp-30,
+.zp-33,
+.zp-35,
+.zp-40,
+.zp-45,
+.zp-50,
+.zp-55,
+.zp-60,
+.zp-65,
+.zp-67,
+.zp-70,
+.zp-75,
+.zp-80,
+.zp-85,
+.zp-90,
+.zp-95,
+.zp-100 {
+	display: inline; 
+	margin-left: -0.04em;
+	overflow-x: hidden;
+}
