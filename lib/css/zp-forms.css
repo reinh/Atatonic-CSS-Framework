@@ -1,15 +1,16 @@
 /* Basic form styles
 ----------------------------------------------------------
 
-@package:	zophrenic 2009	
+@package:	atatonic CSS framework 2009	
 @Author: 	Tim Benniks <tim@timbenniks.com>
 @Created: 	05-02-2009
+@Changed:	21-05-2009
 
 ---------------------------------------------------------- */
 
 fieldset { 
 	margin: 0 0 18px 0; 
-	padding: 18px;
+	padding: 9px;
 	border: 1px solid #ccc; 
 }
 
@@ -26,7 +27,7 @@ label {
 	display: block; 
 	margin: 0 12px 0 0; 
 	text-align: left;  
-	cursor: hand;
+	cursor: pointer;
 	color: #333; 
 }
 
@@ -35,27 +36,25 @@ label {
 }
 
 textarea,
-input[type="text"] { 
+input { 
 	padding: 4px;
 	border: solid #ddd;
 	border-width: 1px 1px 2px 1px;
-	width: 200px;
 }
 
 textarea {
-	width: 483px;
 	font-family: "Lucida Sans",Helvetica,sans-serif;
 	font-size: 11px;
 }
 
 textarea:focus,
-input[type="text"]:focus { 
+input:focus { 
 	background: #f9f9f9;
 	border: solid #ddd;
 	border-width: 1px 1px 2px 1px;
 }
 
-input[type="text"].form-field-error,
+input.form-field-error,
 textarea.form-field-error {
 	border-style: solid;
 	border-color: #FBC2C4 #FBC2C4 #ee9b9e #FBC2C4;
@@ -64,7 +63,7 @@ textarea.form-field-error {
 	color: #8A1F11;
 }
 
-input[type="text"].form-field-notice,
+input.form-field-notice,
 textarea.form-field-notice {
 	border-style: solid;
 	border-color: #FFD324 #FFD324 #e3bb1b #FFD324;

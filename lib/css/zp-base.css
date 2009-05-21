@@ -1,9 +1,10 @@
-/* Reset the default browser styles
+/* Reset the default browser styles.
 ----------------------------------------------------------
 
-@package:	zophrenic 2009	
+@package:	atatonic CSS framework 2009	
 @Author: 	Tim Benniks <tim@timbenniks.com>
 @Created: 	01-02-2009
+@Changed:	21-05-2009
 
 ---------------------------------------------------------- */
 
@@ -69,10 +70,11 @@ hr {
 	padding: 0;
 }
 
-/* A basic grid for zophrenic sites
+
+/* A basic grid.
 ----------------------------------------------------------
 
-@package:	zophrenic 2009	
+@package:	atatonic CSS framework 2009	
 @Author: 	Tim Benniks <tim@timbenniks.com>
 @Created: 	01-02-2009
 
@@ -126,6 +128,14 @@ hr {
 	clear: both;
 }
 
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
 
 /* clearfix hack
 ---------------------------------------------------------- */
@@ -164,13 +174,4 @@ html[xmlns] .zp-wrapper {
 	left: -9999px;	
 	position: absolute;
 	visibility: hidden;
-}
-
-
-.left {
-	float: left;
-}
-
-.right {
-	float: right;
 }

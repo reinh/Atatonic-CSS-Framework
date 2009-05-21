@@ -1,16 +1,17 @@
-/* Basic typography for every zophrenic project
+/* Basic typography.
 ----------------------------------------------------------
 
-@package:	zophrenic 2009	
+@package:	atatonic CSS framework 2009	
 @Author: 	Tim Benniks <tim@timbenniks.com>
 @Created: 	01-02-2009
+@Changed:	21-05-2009
 
 ---------------------------------------------------------- */
 
 body {
-	font: 12px/18px "Lucida Sans", Helvetica, sans-serif;
+	font: 12px/18px "Lucida Grande", Arial, sans-serif;
 	/* font: 13px/18px Georgia, "Times new roman", serif; */
-	background: url(../images/gridbg.gif);
+	/* background: url(../images/gridbg.gif); */
 	color: #111;
 }
 
