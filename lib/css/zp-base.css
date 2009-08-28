@@ -71,6 +71,19 @@ hr {
 }
 
 
+/* html 5 compatability
+---------------------------------------------------------- */
+
+header, 
+footer, 
+section, 
+aside, 
+nav, 
+article {
+	display: block !important;
+}
+
+
 /* A basic grid.
 ----------------------------------------------------------
 

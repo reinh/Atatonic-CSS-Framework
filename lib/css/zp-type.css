@@ -27,8 +27,11 @@ h1 {
 } 
 
 h2 { 
-	font-size: 18px;   	
-	line-height: 36px;  
+	font-family: Georgia, "Times new roman", serif;
+	font-size: 18px;
+	line-height: 36px;
+	font-style: italic;
+	font-weight: normal;
 }
 
 h3 { 
@@ -54,6 +57,7 @@ h5, h6 {
 	font-weight: normal;
 
 }
+
 
 /* Text elements
 -------------------------------------------------------------- */
@@ -84,6 +88,14 @@ a:focus {
 
 a:hover {
 	color: #000;
+}
+
+blockquote {
+	background: #f9f9f9;
+	border-left: 5px solid #ccc;
+	margin: 18px 9px;
+	padding: 6em 9px;
+	quotes: "“" "”" "‘" "’";
 }
 
 
