@@ -98,6 +98,18 @@ blockquote {
 	quotes: "“" "”" "‘" "’";
 }
 
+p.intro:first-letter {
+	font-size: 43px;
+	font-weight: normal;
+	line-height: 32px;
+	letter-spacing: 5px;
+	float: left;
+	padding: 5px 0 0 0;
+	width: auto;
+	font-family: Georgia, Times, serif;
+	text-shadow: 1px 1px 1px #333;
+}
+
 
 /*	Lists
 -------------------------------------------------------------- */
