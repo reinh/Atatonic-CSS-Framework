@@ -4,7 +4,7 @@
 @package:	atatonic CSS framework 2009	
 @Author: 	Tim Benniks <tim@timbenniks.com>
 @Created: 	01-02-2009
-@Changed:	21-05-2009
+@Changed:	30-08-2009
 
 ---------------------------------------------------------- */
 
@@ -102,7 +102,8 @@ blockquote {
 	font-style: italic;
 }
 
-p.intro:first-letter {
+p.intro:first-letter,
+p.important:first-letter {
 	font-size: 43px;
 	font-weight: normal;
 	line-height: 32px;
@@ -114,21 +115,23 @@ p.intro:first-letter {
 	text-shadow: 1px 1px 1px #333;
 }
 
-
-/*	Lists
--------------------------------------------------------------- */
-
-.list {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+p.intro:first-line,
+p.important:first-line {
+	font-variant: small-caps;
 }
-	
-	.list li {
-		display: inline;
-		margin: 0 6px 0 0;
-	}
-	
+
+pre, code {
+	overflow-x: auto;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: #111;
+	border: 1px solid #333;
+	font-family: monaco, courier, "courier new", monospace;
+	font-size: 11px;
+	margin: 0 0 18px;
+	padding: 9px;
+}
+
 
 /*	Buttons
 -------------------------------------------------------------- */
